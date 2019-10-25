@@ -1,0 +1,139 @@
+/*body{
+    background-color: grey;
+}*/
+.base1{
+    background-color: grey;
+    width: 250px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+
+#rouge{
+    border-radius: 50%;
+      
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    
+   
+}
+#rouge:hover{
+
+    background-color: blue;
+}
+#orange{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+#orange:hover{
+background-color: aqua;
+}
+
+#vert{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+}
+#vert:hover{
+    background-color: blueviolet;
+}
+/* phase B */
+#rougeb{
+    border-radius: 50%;
+      
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    
+   
+}
+#rougeb:hover{
+
+    background-color: blue;
+}
+#orangeb{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+#orangeb:hover{
+background-color: aqua;
+}
+
+#vertb{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+}
+#vertb:hover{
+    background-color: blueviolet;
+}
+.sync{
+
+    display: flex;
+}
+.base2{
+
+    background-color: grey;
+    width: 250px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/*animation*/
+#rouge{
+    animation: animeRouge 3s infinite;
+}
+#rougeb{
+    animation: animeRouge 3s infinite;
+    animation-delay: 2s;
+}
+@keyframes animeRouge{
+    0%{background-color: black;}
+    33%{background-color: red;}
+    100%{background-color: black;}
+
+}
+
+
+
+#orange{
+    animation: animeOrange 3s infinite;
+}
+#orangeb{
+    animation: animeOrange 3s infinite;
+    animation-delay:  2s;
+}
+@keyframes animeOrange{
+    0%{background-color: black;}
+    33%{background-color: orange;}
+    100%{background-color: black;}
+
+}
+
+#vert{
+    animation: animeVert 3s infinite;
+}
+#vertb{
+    animation: animeVert 3s infinite;
+    animation-delay:  2s;
+}
+@keyframes animeVert{
+    0%{background-color: black;}
+    33%{background-color: green;}
+    100%{background-color: black;}
+
+}

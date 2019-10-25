@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 200px;
+    width:100%;
+    background-color: rgb(117, 118, 185);
+    margin-top: 5px;
+   
+}
+.tete{
+    height: 100%;
+    width: 13%;
+    background-color: black;
+    margin-left: 45%; 
+    
+}
+.yeux{
+display: flex
+}
+.yeux2{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(223, 52, 22);
+    float: right;
+    margin-top: 10px;
+    margin-left: 25px;
+
+}
+.yeux3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(223, 52, 22);
+    float: right;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.bouche{
+    width: 60px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    
+.cou{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(53, 53, 105);
+
+
+}
+.cou1{
+    height: 40px;
+    width: 5%;
+    background-color: rgb(9, 9, 10);
+    margin-left: 49%; 
+
+}
+.base{
+    height: 400px;
+    width:100%;
+    background-color: rgb(147, 147, 212);
+
+}
+.bras1{
+    height: 100%;
+    width:20%; 
+    background-color: black;
+    float: right;
+    margin-right: 1%;
+   
+
+
+    
+}
+.corps{
+    animation: salut2 1s;
+    height: 100%;
+    width:50px; 
+    background-color: black;
+    float: right;
+    margin-right: 35%;
+    transform-origin: top left;
+}
+.bras2{
+    height: 100%;
+    width:50px; 
+    background-color: black;
+    float: left;
+    margin-left: 36%;
+    animation: salut 2s;
+    transform-origin: top right;
+}
+.jambes{
+    height: 300px;
+    width:100%;
+    background-color: rgb(70, 70, 139)
+}
+.jambes1{
+    height: 100%;
+    width:70px; 
+    background-color: black;
+    float: right;
+    margin-right: 45%;
+    
+
+
+}
+.jambes2{
+    height: 100%;
+    width:70px; 
+    background-color: black;
+    float: left;
+margin-left: 45%;
+}
+@keyframes salut{
+    from {transform: rotate(50deg)}
+    to{
+        transform: rotate(100deg)
+    }
+}
+@keyframes salut2{
+    from {transform: rotate(0deg)}
+    to{
+        transform: rotate(-90deg)
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+    window.addEventListener("load", ()=>{
+        const canvas = document.querySelector(".canvas");
+        const ctx = canvas.getContext('2d');
+
+        canvas.height = window.innnerheight
+        canvas.width = window.innerWidth;
+
+        ctx.fillStyle='red';
+        ctx.fillRect(200, 200, 400, 400);
+        
+        ctx.stroketyle = 'green';
+        ctx.lineWidht = 5
+        ctx.beginPath();
+        ctx.moveTo(100, 100);
+        ctx.lineTo(600, 800);
+        
+
+        ctx.closePath();
+        
+
+    
+    
+    </script>
+</body>
+</html>
