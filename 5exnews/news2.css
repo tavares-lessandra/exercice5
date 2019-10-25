@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(56, 65, 65);
+}
+section{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:10px;
+    background: #c3c3c3;
+    margin-top: 25px;
+}
+.australie,
+.turkey,
+.chine,
+.grece,
+.borabora,
+.inde,
+.bresil,
+.france,
+.usa,
+.mexique,
+.japon{
+    align-content: center;
+    /* padding: 2px; */
+    border: black solid 2px;
+
+}
+.australie{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_1.webp");
+    background-repeat: no-repeat;
+    background-position: 25% 70%;
+    transition: .7s ease-in;
+}
+
+.australie:hover {
+    background-position: 50% 80%;
+    cursor: pointer;
+}
+
+.turkey{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_2.webp");
+    background-position: 25% 70%;
+    transition: .7s ease-in;
+}
+.turkey:hover{
+    background-position: 15% 50% ;
+    cursor: pointer;
+
+}
+.chine{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_3.webp");
+    background-position: 25% 20%;
+    transition:  .7s ease-in;
+}
+
+.chine:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+.grece{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_4.webp");
+    background-position: 25% 70%;
+    transition:  .7s ease-in;
+}
+.grece:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+   
+    
+}
+.borabora{
+    grid-column: 1/2;
+    grid-row:  2/3;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_5.webp");
+    background-position: 25% 20%;
+    transition:  .7s ease-in;
+}
+.borabora:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+
+.inde{
+    grid-column: 2/4;
+    grid-row:  2/3;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_6.webp");
+    background-position: 25% 20%;
+    transition:  .7s ease-in;
+}
+.inde:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+.bresil{
+    grid-column: 4/5;
+    grid-row:  2/3;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_7.webp");
+    background-position: 25% 20%;
+    transition:  .7s ease-in;
+}
+.inde:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+
+.france{
+    grid-column: 1/2;
+    grid-row:  3/4;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_8.webp");
+    background-position: 25% 20%;
+    transition:  .7s ease-in;
+}
+.france:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+
+.usa{
+    grid-column: 2/3;
+    grid-row:  3/4;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_9.webp");
+    background-position: 25% 80%;
+    transition:  .7s ease-in;
+}
+.usa:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+.mexique{
+    grid-column: 3/5;
+    grid-row:  3/4;
+    width: 100%;
+    height: 100%;
+    background-image: url("paysage_10.webp");
+    background-position: 25% 80%;
+    transition:  .7s ease-in;
+}
+.mexique:hover{
+    background-position: 15% 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    top: 80%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.australie:hover h2,
+.turkey:hover h2,
+.chine:hover h2,
+.grece:hover h2,
+.borabora:hover h2,
+.inde:hover h2,
+.bresil:hover h2,
+.france:hover h2,
+.usa:hover h2,
+.mexique:hover h2,
+.japon:hover h2{ opacity: 1;
+}
+
+
+    
+
